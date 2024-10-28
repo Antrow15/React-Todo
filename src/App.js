@@ -92,7 +92,6 @@ function App() {
           ))}
         </div>
 
-        {/* Modal for adding/editing todos */}
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>{isEditing !== null ? "Edit To-Do" : "Add To-Do"}</Modal.Title>
